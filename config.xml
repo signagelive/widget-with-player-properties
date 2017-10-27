@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:sl="http://www.signagelive.com/widgets" id="https://github.com/signagelive/widget-with-player-properties" version="0.0.1" width="1920" height="1080">
+	<!-- Name of the widget displayed in Signagelive as the name of the Media Asset -->
+	<name>
+		Widget with player properties
+	</name>
+	<description>
+		A simple widget demonstrating the use of player properties in the configuration file
+	</description>
+	<!-- Widget author -->
+	<author>
+		Signagelive Limited
+	</author>
+	<!-- Start page for widget -->
+	<content src="index.html" />
+	<!-- Icons to display in Signagelive, not essential as Signagelive will attempt to generate a preview if these are omitted -->
+	<icon src="media/thumb.png" sl:thumbnail="large" />
+	<icon src="media/thumb.png" sl:thumbnail="small" />
+	<!-- Preferences (Optional) -->
+	<preference name="{!serialno}" value="" sl:type="string" />
+	<preference name="{tradename}" value="" sl:type="string" />
+	<preference name="{address1}" value="" sl:type="string" />
+	<preference name="{address2}" value="" sl:type="string" />
+	<preference name="{town}" value="" sl:type="string" />
+	<preference name="{county}" value="" sl:type="string" />
+	<preference name="{postcode}" value="" sl:type="string" />
+	<preference name="{country}" value="" sl:type="string" />
+	<preference name="{refcode1}" value="" sl:type="string" />
+	<preference name="{refcode2}" value="" sl:type="string" />
+	<preference name="{refcode3}" value="" sl:type="string" />
+	
+</widget>
